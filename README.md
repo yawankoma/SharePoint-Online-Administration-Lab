@@ -68,6 +68,10 @@ SKO Corporation had no central starting point for staff accessing company inform
 - Rationale: The hub site must not be accessible to external guests under any circumstance
 
 
+![pic](img/img1.png)
+![pic](img/img5.png)
+
+
 ### Result
 A registered hub site was deployed and confirmed active in the SharePoint Admin Center. The hub navigation bar propagates automatically to all associated sites, providing consistent branding and navigation across the SKO environment without requiring manual updates on each site.
 
@@ -120,7 +124,6 @@ The IT team had no shared space to maintain policies or track support incidents.
 |---|---|---|
 | Laptop not connecting to VPN | High | Open |
 | Printer offline in Finance | Medium | In Progress |
-| Password reset request | Low | Closed |
 
 **7. Set external sharing to disabled**
 - Active sites → IT Department → Policies → Sharing → Only people in your organisation
@@ -168,6 +171,11 @@ SKO staff had no centralised source of company-wide information or announcements
 
 **6. Disabled external sharing**
 - Active sites → SKO Staff Community → Policies → Sharing → Only people in your organisation
+
+
+![pic](img/img2.png)
+![pic](img/img3.png)
+![pic](img/img4.png)
 
 
 ### Result
