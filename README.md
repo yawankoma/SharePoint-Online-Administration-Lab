@@ -15,7 +15,6 @@ As the IT Administrator for SKO Corporation, I was tasked with designing and dep
 | Tenant | sko12.onmicrosoft.com |
 | Admin account | Global Administrator |
 | SharePoint domain | sko12.sharepoint.com |
-| Tool used for reporting | SharePoint Online Management Shell (PowerShell) |
 
 ---
 
