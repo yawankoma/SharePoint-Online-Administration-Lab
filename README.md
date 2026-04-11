@@ -1,8 +1,8 @@
-# SharePoint Online Administration Lab — SKO Corporation
+# SharePoint Online Administration Lab - SKO Corporation
 
 ## Overview
 
-SKO Corporation is a fictional 120-person organisation used as the basis for this home lab. Prior to this project, staff had no central intranet — files were shared over email, there was no company-wide communication platform, and the IT team had no dedicated collaboration space. 
+SKO Corporation is a fictional 120-person organisation used as the basis for this home lab. Prior to this project, staff had no central intranet files were shared over email, there was no company wide communication platform, and the IT team had no dedicated collaboration space. 
 
 As the IT Administrator for SKO Corporation, I was tasked with designing and deploying a full SharePoint Online environment from scratch using the existing Microsoft 365 tenant (`sko12.onmicrosoft.com`). The environment was built across three layers: a hub site serving as the company intranet, a private team site for the IT department, and a public communication site for all staff.
 
@@ -31,7 +31,7 @@ SKO Corporation Intranet Hub  (/sites/intranet)
 
 ---
 
-## Layer 1 — Hub Site (SKO Corporation Intranet)
+## Layer 1 - Hub Site (SKO Corporation Intranet)
 
 ### Business context
 SKO Corporation had no central starting point for staff accessing company information. The CTO requested a hub that all future internal sites would connect to, providing consistent navigation and branding across the environment.
@@ -57,10 +57,10 @@ SKO Corporation had no central starting point for staff accessing company inform
 
 **4. Designed the homepage**
 - Edited the homepage and added the following web parts:
-  - Hero web part — welcome banner for SKO Corporation
-  - News web part — company announcements feed
-  - Quick Links web part — shortcuts to key resources
-  - People web part — IT team members display
+  - Hero web part - welcome banner for SKO Corporation
+  - News web part - company announcements feed
+  - Quick Links web part - shortcuts to key resources
+  - People web part - IT team members display
 
 **5. Applied sharing policy**
 - SharePoint Admin Center → Active sites → IT Department → Policies → Sharing
@@ -77,7 +77,7 @@ A registered hub site was deployed and confirmed active in the SharePoint Admin 
 
 ---
 
-## Layer 2 — IT Department Team Site
+## Layer 2 - IT Department Team Site
 
 ### Business context
 The IT team had no shared space to maintain policies or track support incidents. Policy documents were stored in individual email inboxes, and incident tracking was done informally. This created risk around outdated procedures and no visibility into open issues.
@@ -98,7 +98,7 @@ The IT team had no shared space to maintain policies or track support incidents.
 - Settings → Site permissions → confirmed Private site
 - Owner: IT Admin account
 - Members: IT Staff (in a production environment, this would be a security group synced from Active Directory via Entra Connect)
-- Visitors: none — no read access for general staff
+- Visitors: none - no read access for general staff
 
 **4. Created IT Policies document library**
 - Site → New → Document library → named `IT Policies`
@@ -115,8 +115,8 @@ The IT team had no shared space to maintain policies or track support incidents.
 | Title | Single line of text | Default |
 | Priority | Choice | High, Medium, Low |
 | Status | Choice | Open, In Progress, Closed |
-| Assigned To | Person | — |
-| Date Reported | Date and time | — |
+| Assigned To | Person | - |
+| Date Reported | Date and time | - |
 
 **6. Added sample incident records**
 
@@ -135,10 +135,10 @@ A private team site was deployed for the IT department with a functioning docume
 
 ---
 
-## Layer 3 — SKO Staff Community (Communication Site)
+## Layer 3 - SKO Staff Community (Communication Site)
 
 ### Business context
-SKO staff had no centralised source of company-wide information or announcements. The Head of Operations requested a read-only portal that all 120 staff could access for news, contact information and key links — without the ability to accidentally modify content.
+SKO staff had no centralised source of company-wide information or announcements. The Head of Operations requested a read-only portal that all 120 staff could access for news, contact information and key links without the ability to accidentally modify content.
 
 ### Actions taken
 
@@ -153,15 +153,15 @@ SKO staff had no centralised source of company-wide information or announcements
 **3. Configured read-only permissions for all staff**
 - Settings → Site permissions → Share site
 - Added `Everyone except external users` as Visitors (read-only)
-- Removed from Members — general staff cannot edit any content
+- Removed from Members - general staff cannot edit any content
 - Owner and Members: IT Admin only
 
 **4. Designed the homepage**
-- Hero web part — Welcome to SKO Corporation banner
-- News web part — displays published company announcements
-- People web part — IT team contact display
-- Quick Links — Help Desk, IT Policies, Staff Directory
-- Text web part — IT support contact information
+- Hero web part - Welcome to SKO Corporation banner
+- News web part - displays published company announcements
+- People web part - IT team contact display
+- Quick Links - Help Desk, IT Policies, Staff Directory
+- Text web part - IT support contact information
 
 **5. Published a news article**
 - Site → New → News post
