@@ -88,7 +88,7 @@ The IT team had no shared space to maintain policies or track support incidents.
 - SharePoint Admin Center → Active sites → Create → Team site
 - Site name: `IT Department`
 - URL: `https://sko12.sharepoint.com/sites/IT-Department`
-- Privacy: Private — only IT staff can access this site
+- Privacy: Private only IT staff can access this site
 
 **2. Associated to the hub**
 - Active sites → IT Department → Hub → Associate with a hub → SKO Intranet Hub
